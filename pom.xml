@@ -4,7 +4,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.heanbian</groupId>
+	<groupId>com.heanbian.boot</groupId>
 	<artifactId>heanbian-spring-boot</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
@@ -16,22 +16,15 @@
 
 	<properties>
 		<spring-boot.version>2.2.6.RELEASE</spring-boot.version>
-		<heanbian.version>1.0.0-SNAPSHOT</heanbian.version>
+		<heanbian-spring-boot-autoconfigure.version>1.0.0-SNAPSHOT</heanbian-spring-boot-autoconfigure.version>
+		<heanbian-elasticsearch-client.version>11.3.1</heanbian-elasticsearch-client.version>
 		<heanbian-crypto.version>11.2.1</heanbian-crypto.version>
+		<heanbian-email.version>11.2.1</heanbian-email.version>
+		<heanbian-core.version>11.2.1</heanbian-core.version>
 	</properties>
 
 	<dependencyManagement>
 		<dependencies>
-			<dependency>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-starter</artifactId>
-				<version>${spring-boot.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-autoconfigure</artifactId>
-				<version>${spring-boot.version}</version>
-			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-configuration-processor</artifactId>
@@ -39,14 +32,29 @@
 			</dependency>
 
 			<dependency>
-				<groupId>com.heanbian</groupId>
+				<groupId>com.heanbian.boot</groupId>
 				<artifactId>heanbian-spring-boot-autoconfigure</artifactId>
-				<version>${heanbian.version}</version>
+				<version>${heanbian-spring-boot-autoconfigure.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.heanbian</groupId>
+				<artifactId>heanbian-elasticsearch-client</artifactId>
+				<version>${heanbian-elasticsearch-client.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.heanbian</groupId>
 				<artifactId>heanbian-crypto</artifactId>
 				<version>${heanbian-crypto.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.heanbian</groupId>
+				<artifactId>heanbian-core</artifactId>
+				<version>${heanbian-core.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.heanbian</groupId>
+				<artifactId>heanbian-email</artifactId>
+				<version>${heanbian-email.version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>

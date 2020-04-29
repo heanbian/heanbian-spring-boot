@@ -5,7 +5,7 @@
 
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.heanbian</groupId>
+	<groupId>com.heanbian.boot</groupId>
 	<artifactId>heanbian-spring-boot-autoconfigure</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
@@ -13,7 +13,7 @@
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
-				<groupId>com.heanbian</groupId>
+				<groupId>com.heanbian.boot</groupId>
 				<artifactId>heanbian-spring-boot</artifactId>
 				<version>1.0.0-SNAPSHOT</version>
 				<type>pom</type>
@@ -25,18 +25,25 @@
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-autoconfigure</artifactId>
-			<optional>true</optional>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-configuration-processor</artifactId>
 			<optional>true</optional>
 		</dependency>
 
 		<dependency>
 			<groupId>com.heanbian</groupId>
+			<artifactId>heanbian-elasticsearch-client</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.heanbian</groupId>
 			<artifactId>heanbian-crypto</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.heanbian</groupId>
+			<artifactId>heanbian-core</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.heanbian</groupId>
+			<artifactId>heanbian-email</artifactId>
 		</dependency>
 	</dependencies>
 </project>
