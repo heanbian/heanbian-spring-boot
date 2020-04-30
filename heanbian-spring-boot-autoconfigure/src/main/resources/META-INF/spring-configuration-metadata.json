@@ -7,6 +7,10 @@
 		{
 			"name": "heanbian.elasticsearch",
 			"type": "com.heanbian.boot.autoconfigure.elasticsearch.ElasticsearchProperties"
+		},
+		{
+			"name": "heanbian.oss",
+			"type": "com.heanbian.boot.autoconfigure.oss.OssProperties"
 		}
 	]
 }

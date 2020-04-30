@@ -1,3 +1,4 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
 com.heanbian.boot.autoconfigure.email.EmailAutoConfiguration,\
-com.heanbian.boot.autoconfigure.elasticsearch.ElasticsearchAutoConfiguration
+com.heanbian.boot.autoconfigure.elasticsearch.ElasticsearchAutoConfiguration,\
+com.heanbian.boot.autoconfigure.oss.OssAutoConfiguration
