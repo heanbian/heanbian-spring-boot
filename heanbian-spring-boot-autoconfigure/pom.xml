@@ -9,7 +9,7 @@
 	<artifactId>heanbian-spring-boot-autoconfigure</artifactId>
 	<version>1.0.0</version>
 	<packaging>jar</packaging>
-	
+
 	<name>heanbian-spring-boot-starter</name>
 	<url>https://github.com/heanbian/heanbian-spring-boot/heanbian-spring-boot-autoconfigure</url>
 	<description>Heanbian spring boot autoconfigure components.</description>
@@ -171,6 +171,17 @@
 	</dependencyManagement>
 
 	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-autoconfigure</artifactId>
+			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-configuration-processor</artifactId>
+			<optional>true</optional>
+		</dependency>
+
 		<dependency>
 			<groupId>com.heanbian</groupId>
 			<artifactId>heanbian-elasticsearch-client</artifactId>
