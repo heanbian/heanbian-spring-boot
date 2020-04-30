@@ -1,0 +1,8 @@
+{
+	"properties": [
+		{
+			"name": "heanbian.email",
+			"type": "com.heanbian.boot.autoconfigure.email.EmailProperties"
+		}
+	]
+}
