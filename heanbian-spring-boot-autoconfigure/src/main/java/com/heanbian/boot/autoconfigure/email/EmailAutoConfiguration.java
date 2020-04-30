@@ -13,7 +13,7 @@ import com.heanbian.block.email.EmailTemplate;
 public class EmailAutoConfiguration {
 
 	@Bean
-	@ConditionalOnProperty(prefix = "heanbian.email", name = "enable", havingValue = "true")
+	@ConditionalOnProperty(prefix = "heanbian.email", name = "enabled", havingValue = "true")
 	public EmailTemplate emailTemplate(EmailProperties ep) {
 		return new EmailTemplate(new EmailConfig(ep.getHost(), ep.getPort(), ep.getUsername(), ep.getPassword(),
 				ep.getFrom(), ep.isDebug()));

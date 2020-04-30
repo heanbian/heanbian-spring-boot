@@ -26,7 +26,7 @@ import com.heanbian.block.elasticsearch.client.ElasticsearchTemplate;
 public class ElasticsearchAutoConfiguration {
 
 	@Bean
-	@ConditionalOnProperty(prefix = "heanbian.elasticsearch", name = "enable", havingValue = "true")
+	@ConditionalOnProperty(prefix = "heanbian.elasticsearch", name = "enabled", havingValue = "true")
 	public ElasticsearchTemplate elasticsearchTemplate(ElasticsearchProperties ep) {
 		return new ElasticsearchTemplate(getRestHighLevelClient(ep));
 	}
