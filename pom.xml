@@ -194,6 +194,7 @@
 				<groupId>com.heanbian.boot</groupId>
 				<artifactId>heanbian-spring-boot-autoconfigure</artifactId>
 				<version>${heanbian-spring-boot-autoconfigure.version}</version>
+				<scope>compile</scope>
 			</dependency>
 			<dependency>
 				<groupId>com.heanbian</groupId>
