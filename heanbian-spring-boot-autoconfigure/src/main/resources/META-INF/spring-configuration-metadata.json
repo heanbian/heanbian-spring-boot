@@ -3,6 +3,10 @@
 		{
 			"name": "heanbian.email",
 			"type": "com.heanbian.boot.autoconfigure.email.EmailProperties"
+		},
+		{
+			"name": "heanbian.elasticsearch",
+			"type": "com.heanbian.boot.autoconfigure.elasticsearch.ElasticsearchProperties"
 		}
 	]
 }
