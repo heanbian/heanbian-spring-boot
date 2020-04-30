@@ -4,6 +4,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 
 @ConfigurationProperties(prefix = "heanbian.email")
 public class EmailProperties {
+
 	/**
 	 * 代理邮件主机地址
 	 */
@@ -34,7 +35,7 @@ public class EmailProperties {
 	 */
 	private boolean debug;
 
-	private boolean enable = false;
+	private boolean enabled = false;
 
 	public String getHost() {
 		return host;
@@ -84,12 +85,12 @@ public class EmailProperties {
 		this.debug = debug;
 	}
 
-	public boolean isEnable() {
-		return enable;
+	public boolean isEnabled() {
+		return enabled;
 	}
 
-	public void setEnable(boolean enable) {
-		this.enable = enable;
+	public void setEnabled(boolean enabled) {
+		this.enabled = enabled;
 	}
 
 }

@@ -5,7 +5,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 @ConfigurationProperties(prefix = "heanbian.oss")
 public class OssProperties {
 
-	private boolean enable = false;
+	private boolean enabled = false;
 
 	private String endpoint;
 
@@ -57,12 +57,12 @@ public class OssProperties {
 		this.bucketUri = bucketUri;
 	}
 
-	public boolean isEnable() {
-		return enable;
+	public boolean isEnabled() {
+		return enabled;
 	}
 
-	public void setEnable(boolean enable) {
-		this.enable = enable;
+	public void setEnabled(boolean enabled) {
+		this.enabled = enabled;
 	}
 
 }
