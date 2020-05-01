@@ -158,8 +158,8 @@
 	</distributionManagement>
 
 	<modules>
-		<module>heanbian-spring-boot-starter</module>
 		<module>heanbian-spring-boot-autoconfigure</module>
+		<module>heanbian-spring-boot-starter</module>
 	</modules>
 
 	<properties>
