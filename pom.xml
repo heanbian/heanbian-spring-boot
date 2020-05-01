@@ -6,7 +6,7 @@
 
 	<groupId>com.heanbian.boot</groupId>
 	<artifactId>heanbian-spring-boot</artifactId>
-	<version>1.0.3</version>
+	<version>1.0.4</version>
 	<packaging>pom</packaging>
 
 	<name>heanbian-spring-boot</name>
@@ -158,13 +158,13 @@
 	</distributionManagement>
 
 	<modules>
-		<module>heanbian-spring-boot-autoconfigure</module>
 		<module>heanbian-spring-boot-starter</module>
+		<module>heanbian-spring-boot-autoconfigure</module>
 	</modules>
 
 	<properties>
 		<spring-boot.version>2.2.6.RELEASE</spring-boot.version>
-		<heanbian-spring-boot-autoconfigure.version>1.0.3</heanbian-spring-boot-autoconfigure.version>
+		<heanbian-spring-boot-autoconfigure.version>1.0.4</heanbian-spring-boot-autoconfigure.version>
 		<heanbian-elasticsearch-client.version>11.3.3</heanbian-elasticsearch-client.version>
 		<heanbian-crypto.version>11.2.1</heanbian-crypto.version>
 		<heanbian-email.version>11.2.2</heanbian-email.version>
@@ -194,31 +194,26 @@
 				<groupId>com.heanbian.boot</groupId>
 				<artifactId>heanbian-spring-boot-autoconfigure</artifactId>
 				<version>${heanbian-spring-boot-autoconfigure.version}</version>
-				<scope>compile</scope>
 			</dependency>
 			<dependency>
 				<groupId>com.heanbian</groupId>
 				<artifactId>heanbian-elasticsearch-client</artifactId>
 				<version>${heanbian-elasticsearch-client.version}</version>
-				<scope>compile</scope>
 			</dependency>
 			<dependency>
 				<groupId>com.heanbian</groupId>
 				<artifactId>heanbian-crypto</artifactId>
 				<version>${heanbian-crypto.version}</version>
-				<scope>compile</scope>
 			</dependency>
 			<dependency>
 				<groupId>com.heanbian</groupId>
 				<artifactId>heanbian-core</artifactId>
 				<version>${heanbian-core.version}</version>
-				<scope>compile</scope>
 			</dependency>
 			<dependency>
 				<groupId>com.heanbian</groupId>
 				<artifactId>heanbian-email</artifactId>
 				<version>${heanbian-email.version}</version>
-				<scope>compile</scope>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
