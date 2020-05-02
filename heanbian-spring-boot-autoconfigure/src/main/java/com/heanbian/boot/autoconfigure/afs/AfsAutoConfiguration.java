@@ -15,7 +15,7 @@ import com.aliyuncs.profile.IClientProfile;
 public class AfsAutoConfiguration {
 
 	@Bean
-	@ConditionalOnProperty(prefix = "heanbian.afs", name = "enable", havingValue = "true")
+	@ConditionalOnProperty(prefix = "heanbian.afs", name = "enabled", havingValue = "true")
 	public IAcsClient acsClient(AfsProperties ap) {
 		DefaultProfile.addEndpoint(ap.getRegionId(), "afs", ap.getEndpoint());
 		IClientProfile profile = DefaultProfile.getProfile(ap.getRegionId(), ap.getAccessKeyId(),

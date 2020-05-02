@@ -13,7 +13,7 @@ import com.aliyun.oss.OSSClientBuilder;
 public class OssAutoConfiguration {
 
 	@Bean
-	@ConditionalOnProperty(prefix = "heanbian.oss", name = "enable", havingValue = "true")
+	@ConditionalOnProperty(prefix = "heanbian.oss", name = "enabled", havingValue = "true")
 	public OSS oss(OssProperties op) {
 		return new OSSClientBuilder().build(op.getEndpoint(), op.getAccessKeyId(), op.getAccessKeySecret());
 	}

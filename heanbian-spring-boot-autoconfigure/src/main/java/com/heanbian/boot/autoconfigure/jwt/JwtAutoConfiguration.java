@@ -14,7 +14,7 @@ import com.heanbian.block.jwt.JwtTemplate;
 public class JwtAutoConfiguration {
 
 	@Bean
-	@ConditionalOnProperty(prefix = "heanbian.jwt", name = "enable", havingValue = "true")
+	@ConditionalOnProperty(prefix = "heanbian.jwt", name = "enabled", havingValue = "true")
 	public JwtTemplate jwtTemplate(JwtProperties jp) {
 		return new JwtTemplate(getKeyPair());
 	}
