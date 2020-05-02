@@ -6,7 +6,7 @@
 
 	<groupId>com.heanbian.boot</groupId>
 	<artifactId>heanbian-spring-boot-starter</artifactId>
-	<version>1.0.4</version>
+	<version>1.0.5</version>
 
 	<name>heanbian-spring-boot-starter</name>
 	<url>https://github.com/heanbian/heanbian-spring-boot/heanbian-spring-boot-starter</url>
@@ -161,7 +161,7 @@
 			<dependency>
 				<groupId>com.heanbian.boot</groupId>
 				<artifactId>heanbian-spring-boot</artifactId>
-				<version>1.0.4</version>
+				<version>1.0.5</version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
@@ -198,6 +198,21 @@
 		<dependency>
 			<groupId>com.heanbian</groupId>
 			<artifactId>heanbian-email</artifactId>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.aliyun</groupId>
+			<artifactId>aliyun-java-sdk-core</artifactId>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.aliyun</groupId>
+			<artifactId>aliyun-java-sdk-afs</artifactId>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.aliyun.oss</groupId>
+			<artifactId>aliyun-sdk-oss</artifactId>
 			<scope>compile</scope>
 		</dependency>
 	</dependencies>
