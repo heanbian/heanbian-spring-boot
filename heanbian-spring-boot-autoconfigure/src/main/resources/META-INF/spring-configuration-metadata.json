@@ -19,6 +19,10 @@
 		{
 			"name": "heanbian.afs",
 			"type": "com.heanbian.boot.autoconfigure.afs.AfsProperties"
+		},
+		{
+			"name": "heanbian.jwt",
+			"type": "com.heanbian.boot.autoconfigure.jwt.JwtProperties"
 		}
 	]
 }

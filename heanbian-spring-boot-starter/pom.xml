@@ -201,6 +201,11 @@
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
+			<groupId>com.heanbian</groupId>
+			<artifactId>heanbian-jwt</artifactId>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
 			<groupId>com.aliyun</groupId>
 			<artifactId>aliyun-java-sdk-core</artifactId>
 			<scope>compile</scope>

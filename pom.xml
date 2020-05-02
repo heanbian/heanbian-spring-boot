@@ -169,6 +169,7 @@
 		<heanbian-crypto.version>11.2.1</heanbian-crypto.version>
 		<heanbian-email.version>11.2.2</heanbian-email.version>
 		<heanbian-core.version>11.2.1</heanbian-core.version>
+		<heanbian-jwt.version>11.0.0</heanbian-jwt.version>
 		<aliyun-java-sdk-core.version>4.5.1</aliyun-java-sdk-core.version>
 		<aliyun-java-sdk-afs.version>1.0.1</aliyun-java-sdk-afs.version>
 		<aliyun-sdk-oss.version>3.8.1</aliyun-sdk-oss.version>
@@ -217,6 +218,11 @@
 				<groupId>com.heanbian</groupId>
 				<artifactId>heanbian-email</artifactId>
 				<version>${heanbian-email.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.heanbian</groupId>
+				<artifactId>heanbian-jwt</artifactId>
+				<version>${heanbian-jwt.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.aliyun</groupId>

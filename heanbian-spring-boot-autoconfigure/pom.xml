@@ -202,6 +202,11 @@
 			<optional>true</optional>
 		</dependency>
 		<dependency>
+			<groupId>com.heanbian</groupId>
+			<artifactId>heanbian-jwt</artifactId>
+			<optional>true</optional>
+		</dependency>
+		<dependency>
 			<groupId>com.aliyun</groupId>
 			<artifactId>aliyun-java-sdk-core</artifactId>
 			<optional>true</optional>
