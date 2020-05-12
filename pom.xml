@@ -165,7 +165,7 @@
 	<properties>
 		<spring-boot.version>2.2.7.RELEASE</spring-boot.version>
 		<heanbian-spring-boot-autoconfigure.version>1.0.6-SNAPSHOT</heanbian-spring-boot-autoconfigure.version>
-		<heanbian-elasticsearch-client.version>11.3.3</heanbian-elasticsearch-client.version>
+		<heanbian-elasticsearch-client.version>11.3.4</heanbian-elasticsearch-client.version>
 		<heanbian-crypto.version>11.2.1</heanbian-crypto.version>
 		<heanbian-email.version>11.2.2</heanbian-email.version>
 		<heanbian-core.version>11.2.1</heanbian-core.version>
