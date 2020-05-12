@@ -6,7 +6,7 @@
 
 	<groupId>com.heanbian.boot</groupId>
 	<artifactId>heanbian-spring-boot</artifactId>
-	<version>1.0.6-SNAPSHOT</version>
+	<version>1.0.7-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>heanbian-spring-boot</name>
@@ -164,7 +164,7 @@
 
 	<properties>
 		<spring-boot.version>2.2.7.RELEASE</spring-boot.version>
-		<heanbian-spring-boot-autoconfigure.version>1.0.6-SNAPSHOT</heanbian-spring-boot-autoconfigure.version>
+		<heanbian-spring-boot-autoconfigure.version>1.0.7-SNAPSHOT</heanbian-spring-boot-autoconfigure.version>
 		<heanbian-elasticsearch-client.version>11.3.4</heanbian-elasticsearch-client.version>
 		<heanbian-crypto.version>11.2.1</heanbian-crypto.version>
 		<heanbian-email.version>11.2.2</heanbian-email.version>
