@@ -163,7 +163,7 @@
 	</modules>
 
 	<properties>
-		<spring-boot.version>2.2.7.RELEASE</spring-boot.version>
+		<spring-boot.version>2.3.0.RELEASE</spring-boot.version>
 		<elasticsearch.version>7.7.0</elasticsearch.version>
 		<heanbian-spring-boot-autoconfigure.version>1.0.7-SNAPSHOT</heanbian-spring-boot-autoconfigure.version>
 		<heanbian-elasticsearch-client.version>11.3.5</heanbian-elasticsearch-client.version>
