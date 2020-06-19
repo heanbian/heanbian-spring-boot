@@ -11,7 +11,7 @@
 
 	<name>heanbian-spring-boot-autoconfigure</name>
 	<url>https://github.com/heanbian/heanbian-spring-boot/heanbian-spring-boot-autoconfigure</url>
-	<description>Heanbian spring boot autoconfigure components.</description>
+	<description>Heanbian spring boot autoconfigure component.</description>
 	<inceptionYear>2020</inceptionYear>
 
 	<licenses>

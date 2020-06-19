@@ -11,7 +11,7 @@
 
 	<name>heanbian-spring-boot</name>
 	<url>https://github.com/heanbian/heanbian-spring-boot</url>
-	<description>Heanbian spring boot components.</description>
+	<description>Heanbian spring boot component.</description>
 	<inceptionYear>2020</inceptionYear>
 
 	<licenses>

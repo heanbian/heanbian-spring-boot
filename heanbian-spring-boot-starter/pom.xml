@@ -10,7 +10,7 @@
 
 	<name>heanbian-spring-boot-starter</name>
 	<url>https://github.com/heanbian/heanbian-spring-boot/heanbian-spring-boot-starter</url>
-	<description>Heanbian spring boot starter components.</description>
+	<description>Heanbian spring boot starter component.</description>
 	<inceptionYear>2020</inceptionYear>
 
 	<licenses>
