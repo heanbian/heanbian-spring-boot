@@ -169,7 +169,7 @@
 		<heanbian-elasticsearch-client.version>11.4.1</heanbian-elasticsearch-client.version>
 		<heanbian-crypto.version>11.2.1</heanbian-crypto.version>
 		<heanbian-email.version>11.3.0</heanbian-email.version>
-		<heanbian-core.version>11.2.1</heanbian-core.version>
+		<heanbian-core.version>11.2.2</heanbian-core.version>
 		<heanbian-jwt.version>11.0.1</heanbian-jwt.version>
 		<aliyun-java-sdk-core.version>4.5.3</aliyun-java-sdk-core.version>
 		<aliyun-java-sdk-afs.version>1.0.1</aliyun-java-sdk-afs.version>
