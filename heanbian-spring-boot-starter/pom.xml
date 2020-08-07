@@ -6,7 +6,7 @@
 
 	<groupId>com.heanbian.boot</groupId>
 	<artifactId>heanbian-spring-boot-starter</artifactId>
-	<version>1.3.1</version>
+	<version>20200807</version>
 
 	<name>heanbian-spring-boot-starter</name>
 	<url>https://github.com/heanbian/heanbian-spring-boot/heanbian-spring-boot-starter</url>
@@ -161,7 +161,7 @@
 			<dependency>
 				<groupId>com.heanbian.boot</groupId>
 				<artifactId>heanbian-spring-boot</artifactId>
-				<version>1.3.1</version>
+				<version>20200807</version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
