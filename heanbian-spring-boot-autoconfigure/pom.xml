@@ -6,7 +6,7 @@
 
 	<groupId>com.heanbian.boot</groupId>
 	<artifactId>heanbian-spring-boot-autoconfigure</artifactId>
-	<version>1.3.3</version>
+	<version>1.3.4</version>
 	<packaging>jar</packaging>
 
 	<name>heanbian-spring-boot-autoconfigure</name>
@@ -28,7 +28,7 @@
 			<name>heanbian</name>
 			<email>heanbian@heanbian.com</email>
 			<organization>heanbian.com</organization>
-			<organizationUrl>https://www.heanbian.com</organizationUrl>
+			<organizationUrl>https://heanbian.com</organizationUrl>
 			<roles>
 				<role>developer</role>
 			</roles>
@@ -162,7 +162,7 @@
 			<dependency>
 				<groupId>com.heanbian.boot</groupId>
 				<artifactId>heanbian-spring-boot</artifactId>
-				<version>1.3.3</version>
+				<version>1.3.4</version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
