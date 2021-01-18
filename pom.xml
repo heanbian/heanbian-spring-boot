@@ -168,12 +168,11 @@
 		<elasticsearch.version>7.10.2</elasticsearch.version>
 		<aliyun-sdk-oss.version>3.11.2</aliyun-sdk-oss.version>
 		<heanbian-spring-boot-autoconfigure.version>1.4.2</heanbian-spring-boot-autoconfigure.version>
-		<heanbian-elasticsearch-client.version>11.6.4</heanbian-elasticsearch-client.version>
-		<heanbian-crypto.version>11.2.2</heanbian-crypto.version>
-		<heanbian-email.version>11.5.1</heanbian-email.version>
-		<heanbian-core.version>11.2.5</heanbian-core.version>
-		<heanbian-jwt.version>11.1.0</heanbian-jwt.version>
-		<jakarta-mail.version>2.0.0</jakarta-mail.version>
+		<heanbian-elasticsearch.version>1.0.0</heanbian-elasticsearch.version>
+		<heanbian-crypto.version>1.0.0</heanbian-crypto.version>
+		<heanbian-email.version>1.0.0</heanbian-email.version>
+		<heanbian-util.version>1.0.0</heanbian-util.version>
+		<heanbian-jwt.version>1.0.0</heanbian-jwt.version>
 		<arguments />
 	</properties>
 
@@ -201,27 +200,27 @@
 				<version>${heanbian-spring-boot-autoconfigure.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.heanbian</groupId>
-				<artifactId>heanbian-elasticsearch-client</artifactId>
-				<version>${heanbian-elasticsearch-client.version}</version>
+				<groupId>com.heanbian.block</groupId>
+				<artifactId>heanbian-elasticsearch</artifactId>
+				<version>${heanbian-elasticsearch.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.heanbian</groupId>
+				<groupId>com.heanbian.block</groupId>
 				<artifactId>heanbian-crypto</artifactId>
 				<version>${heanbian-crypto.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.heanbian</groupId>
-				<artifactId>heanbian-core</artifactId>
-				<version>${heanbian-core.version}</version>
+				<groupId>com.heanbian.block</groupId>
+				<artifactId>heanbian-util</artifactId>
+				<version>${heanbian-util.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.heanbian</groupId>
+				<groupId>com.heanbian.block</groupId>
 				<artifactId>heanbian-email</artifactId>
 				<version>${heanbian-email.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.heanbian</groupId>
+				<groupId>com.heanbian.block</groupId>
 				<artifactId>heanbian-jwt</artifactId>
 				<version>${heanbian-jwt.version}</version>
 			</dependency>

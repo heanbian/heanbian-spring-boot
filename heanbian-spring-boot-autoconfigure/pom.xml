@@ -182,27 +182,27 @@
 		</dependency>
 
 		<dependency>
-			<groupId>com.heanbian</groupId>
-			<artifactId>heanbian-elasticsearch-client</artifactId>
+			<groupId>com.heanbian.block</groupId>
+			<artifactId>heanbian-elasticsearch</artifactId>
 			<optional>true</optional>
 		</dependency>
 		<dependency>
-			<groupId>com.heanbian</groupId>
+			<groupId>com.heanbian.block</groupId>
 			<artifactId>heanbian-crypto</artifactId>
 			<optional>true</optional>
 		</dependency>
 		<dependency>
-			<groupId>com.heanbian</groupId>
-			<artifactId>heanbian-core</artifactId>
+			<groupId>com.heanbian.block</groupId>
+			<artifactId>heanbian-util</artifactId>
 			<optional>true</optional>
 		</dependency>
 		<dependency>
-			<groupId>com.heanbian</groupId>
+			<groupId>com.heanbian.block</groupId>
 			<artifactId>heanbian-email</artifactId>
 			<optional>true</optional>
 		</dependency>
 		<dependency>
-			<groupId>com.heanbian</groupId>
+			<groupId>com.heanbian.block</groupId>
 			<artifactId>heanbian-jwt</artifactId>
 			<optional>true</optional>
 		</dependency>
