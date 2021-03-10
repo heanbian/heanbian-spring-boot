@@ -6,7 +6,7 @@
 
 	<groupId>com.heanbian.boot</groupId>
 	<artifactId>heanbian-spring-boot-starter</artifactId>
-	<version>1.4.3</version>
+	<version>1.4.4</version>
 	<packaging>jar</packaging>
 
 	<name>heanbian-spring-boot-starter</name>
@@ -162,7 +162,7 @@
 			<dependency>
 				<groupId>com.heanbian.boot</groupId>
 				<artifactId>heanbian-spring-boot</artifactId>
-				<version>1.4.3</version>
+				<version>1.4.4</version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
