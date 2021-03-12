@@ -163,7 +163,7 @@
 	</modules>
 
 	<properties>
-		<revision>1.4.5</revision>
+		<revision>1.4.6</revision>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<spring-boot.version>2.4.3</spring-boot.version>
 		<elasticsearch.version>7.11.1</elasticsearch.version>
@@ -172,7 +172,7 @@
 		<heanbian-crypto.version>1.0.1</heanbian-crypto.version>
 		<heanbian-email.version>1.0.0</heanbian-email.version>
 		<heanbian-util.version>1.0.0</heanbian-util.version>
-		<heanbian-jwt.version>1.0.3</heanbian-jwt.version>
+		<heanbian-jwt.version>1.0.4</heanbian-jwt.version>
 		<arguments />
 	</properties>
 
