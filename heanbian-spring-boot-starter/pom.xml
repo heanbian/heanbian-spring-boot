@@ -3,13 +3,11 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<parent>
-		<groupId>com.heanbian.boot</groupId>
-		<artifactId>heanbian-spring-boot</artifactId>
-		<version>${revision}</version>
-	</parent>
 
+	<groupId>com.heanbian.boot</groupId>
 	<artifactId>heanbian-spring-boot-starter</artifactId>
+	<version>1.4.7</version>
+	<packaging>jar</packaging>
 
 	<name>heanbian-spring-boot-starter</name>
 	<url>https://github.com/heanbian/heanbian-spring-boot/heanbian-spring-boot-starter</url>
@@ -158,6 +156,18 @@
 			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
 		</repository>
 	</distributionManagement>
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>com.heanbian.boot</groupId>
+				<artifactId>heanbian-spring-boot</artifactId>
+				<version>1.4.7</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
 
 	<dependencies>
 		<dependency>
