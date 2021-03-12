@@ -6,7 +6,7 @@
 
 	<groupId>com.heanbian.boot</groupId>
 	<artifactId>heanbian-spring-boot</artifactId>
-	<version>1.4.4</version>
+	<version>${revision}</version>
 	<packaging>pom</packaging>
 
 	<name>heanbian-spring-boot</name>
@@ -163,16 +163,16 @@
 	</modules>
 
 	<properties>
+		<revision>1.4.5</revision>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<spring-boot.version>2.4.3</spring-boot.version>
 		<elasticsearch.version>7.11.1</elasticsearch.version>
 		<aliyun-sdk-oss.version>3.11.3</aliyun-sdk-oss.version>
-		<heanbian-spring-boot-autoconfigure.version>1.4.4</heanbian-spring-boot-autoconfigure.version>
 		<heanbian-elasticsearch.version>1.0.3</heanbian-elasticsearch.version>
-		<heanbian-crypto.version>1.0.0</heanbian-crypto.version>
+		<heanbian-crypto.version>1.0.1</heanbian-crypto.version>
 		<heanbian-email.version>1.0.0</heanbian-email.version>
 		<heanbian-util.version>1.0.0</heanbian-util.version>
-		<heanbian-jwt.version>1.0.2</heanbian-jwt.version>
+		<heanbian-jwt.version>1.0.3</heanbian-jwt.version>
 		<arguments />
 	</properties>
 
@@ -197,7 +197,7 @@
 			<dependency>
 				<groupId>com.heanbian.boot</groupId>
 				<artifactId>heanbian-spring-boot-autoconfigure</artifactId>
-				<version>${heanbian-spring-boot-autoconfigure.version}</version>
+				<version>${project.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.heanbian.block</groupId>
