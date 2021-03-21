@@ -164,7 +164,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<spring-boot.version>2.4.3</spring-boot.version>
+		<spring-boot.version>2.4.4</spring-boot.version>
 		<elasticsearch.version>7.11.2</elasticsearch.version>
 		<aliyun-sdk-oss.version>3.11.3</aliyun-sdk-oss.version>
 		<heanbian-spring-boot-autoconfigure.version>1.5.0-SNAPSHOT</heanbian-spring-boot-autoconfigure.version>
