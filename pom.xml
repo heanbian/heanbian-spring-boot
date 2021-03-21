@@ -170,7 +170,7 @@
 		<heanbian-spring-boot-autoconfigure.version>1.5.0-SNAPSHOT</heanbian-spring-boot-autoconfigure.version>
 		<heanbian-elasticsearch.version>1.0.5</heanbian-elasticsearch.version>
 		<heanbian-crypto.version>1.0.3</heanbian-crypto.version>
-		<heanbian-email.version>1.0.0</heanbian-email.version>
+		<heanbian-email.version>1.0.1</heanbian-email.version>
 		<heanbian-util.version>1.0.1</heanbian-util.version>
 		<heanbian-jwt.version>1.0.5</heanbian-jwt.version>
 		<arguments />
