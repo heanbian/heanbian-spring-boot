@@ -167,7 +167,7 @@
 		<spring-boot.version>2.4.4</spring-boot.version>
 		<aliyun-sdk-oss.version>3.11.3</aliyun-sdk-oss.version>
 		<heanbian-spring-boot-autoconfigure.version>1.5.0-SNAPSHOT</heanbian-spring-boot-autoconfigure.version>
-		<heanbian-elasticsearch.version>1.0.6</heanbian-elasticsearch.version>
+		<heanbian-elasticsearch.version>1.0.7</heanbian-elasticsearch.version>
 		<heanbian-crypto.version>1.0.3</heanbian-crypto.version>
 		<heanbian-email.version>1.0.1</heanbian-email.version>
 		<heanbian-util.version>1.0.1</heanbian-util.version>
