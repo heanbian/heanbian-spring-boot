@@ -168,10 +168,10 @@
 		<aliyun-sdk-oss.version>3.13.2</aliyun-sdk-oss.version>
 		<heanbian-spring-boot-autoconfigure.version>1.6.4</heanbian-spring-boot-autoconfigure.version>
 		<heanbian-elasticsearch.version>2.0.0</heanbian-elasticsearch.version>
-		<heanbian-crypto.version>1.0.7</heanbian-crypto.version>
-		<heanbian-email.version>1.0.4</heanbian-email.version>
-		<heanbian-util.version>1.0.5</heanbian-util.version>
-		<heanbian-jwt.version>1.0.10</heanbian-jwt.version>
+		<heanbian-crypto.version>1.0.8</heanbian-crypto.version>
+		<heanbian-email.version>1.0.5</heanbian-email.version>
+		<heanbian-util.version>1.0.6</heanbian-util.version>
+		<heanbian-jwt.version>1.0.11</heanbian-jwt.version>
 		<arguments />
 	</properties>
 
