@@ -186,27 +186,27 @@
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
-			<groupId>com.heanbian.block</groupId>
+			<groupId>com.heanbian</groupId>
 			<artifactId>heanbian-elasticsearch</artifactId>
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
-			<groupId>com.heanbian.block</groupId>
+			<groupId>com.heanbian</groupId>
 			<artifactId>heanbian-crypto</artifactId>
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
-			<groupId>com.heanbian.block</groupId>
+			<groupId>com.heanbian</groupId>
 			<artifactId>heanbian-util</artifactId>
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
-			<groupId>com.heanbian.block</groupId>
+			<groupId>com.heanbian</groupId>
 			<artifactId>heanbian-email</artifactId>
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
-			<groupId>com.heanbian.block</groupId>
+			<groupId>com.heanbian</groupId>
 			<artifactId>heanbian-jwt</artifactId>
 			<scope>compile</scope>
 		</dependency>

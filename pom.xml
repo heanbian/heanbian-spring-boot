@@ -167,11 +167,11 @@
 		<spring-boot.version>2.6.6</spring-boot.version>
 		<aliyun-sdk-oss.version>3.14.0</aliyun-sdk-oss.version>
 		<heanbian-spring-boot-autoconfigure.version>1.6.7</heanbian-spring-boot-autoconfigure.version>
-		<heanbian-elasticsearch.version>2.1.2</heanbian-elasticsearch.version>
-		<heanbian-crypto.version>1.0.8</heanbian-crypto.version>
-		<heanbian-email.version>1.0.5</heanbian-email.version>
-		<heanbian-util.version>1.0.6</heanbian-util.version>
-		<heanbian-jwt.version>1.0.11</heanbian-jwt.version>
+		<heanbian-elasticsearch.version>1.0.0.0</heanbian-elasticsearch.version>
+		<heanbian-crypto.version>1.0.0.0</heanbian-crypto.version>
+		<heanbian-email.version>1.0.0.0</heanbian-email.version>
+		<heanbian-util.version>1.0.0.0</heanbian-util.version>
+		<heanbian-jwt.version>1.0.0.0</heanbian-jwt.version>
 		<arguments />
 	</properties>
 
@@ -199,27 +199,27 @@
 				<version>${heanbian-spring-boot-autoconfigure.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.heanbian.block</groupId>
+				<groupId>com.heanbian</groupId>
 				<artifactId>heanbian-elasticsearch</artifactId>
 				<version>${heanbian-elasticsearch.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.heanbian.block</groupId>
+				<groupId>com.heanbian</groupId>
 				<artifactId>heanbian-crypto</artifactId>
 				<version>${heanbian-crypto.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.heanbian.block</groupId>
+				<groupId>com.heanbian</groupId>
 				<artifactId>heanbian-util</artifactId>
 				<version>${heanbian-util.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.heanbian.block</groupId>
+				<groupId>com.heanbian</groupId>
 				<artifactId>heanbian-email</artifactId>
 				<version>${heanbian-email.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.heanbian.block</groupId>
+				<groupId>com.heanbian</groupId>
 				<artifactId>heanbian-jwt</artifactId>
 				<version>${heanbian-jwt.version}</version>
 			</dependency>
