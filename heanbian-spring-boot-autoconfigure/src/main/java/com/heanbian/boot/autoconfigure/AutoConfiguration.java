@@ -10,6 +10,7 @@ import com.aliyun.oss.OSS;
 import com.aliyun.oss.OSSClientBuilder;
 import com.heanbian.block.crypto.AesTemplate;
 import com.heanbian.block.crypto.EcTemplate;
+import com.heanbian.block.crypto.ExRsaTemplate;
 import com.heanbian.block.crypto.RsaTemplate;
 import com.heanbian.block.elasticsearch.client.ElasticsearchTemplate;
 import com.heanbian.block.email.EmailConfig;
@@ -41,6 +42,12 @@ public class AutoConfiguration {
 	public RsaTemplate rsaTemplate() {
 		return new RsaTemplate();
 	}
+	
+	@Bean
+	@ConditionalOnClass(ExRsaTemplate.class)
+	public ExRsaTemplate exRsaTemplate() {
+		return new ExRsaTemplate();
+	}
 
 	@Bean
 	@ConditionalOnClass(EcTemplate.class)
@@ -60,7 +67,7 @@ public class AutoConfiguration {
 	public JwtTemplate jwtTemplate() {
 		return new JwtTemplate();
 	}
-
+	
 	@Bean
 	@ConditionalOnProperty(prefix = "heanbian.oss", name = "enabled", havingValue = "true")
 	public OSS oss(com.heanbian.boot.autoconfigure.OssProperties op) {
