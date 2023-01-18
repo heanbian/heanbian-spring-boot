@@ -6,7 +6,7 @@
 
 	<groupId>com.heanbian.boot</groupId>
 	<artifactId>heanbian-spring-boot</artifactId>
-	<version>13</version>
+	<version>13.1</version>
 	<packaging>pom</packaging>
 
 	<name>heanbian-spring-boot</name>
@@ -165,14 +165,12 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<spring-boot.version>3.0.1</spring-boot.version>
-		<aliyun-sdk-oss.version>3.16.0</aliyun-sdk-oss.version>
-		<heanbian-spring-boot-autoconfigure.version>13</heanbian-spring-boot-autoconfigure.version>
-		<heanbian-elasticsearch.version>11</heanbian-elasticsearch.version>
+		<heanbian-spring-boot-autoconfigure.version>13.1</heanbian-spring-boot-autoconfigure.version>
+		<heanbian-elasticsearch.version>13.1</heanbian-elasticsearch.version>
 		<heanbian-crypto.version>13.1</heanbian-crypto.version>
-		<heanbian-email.version>13</heanbian-email.version>
-		<heanbian-util.version>13</heanbian-util.version>
-		<heanbian-jwt.version>13</heanbian-jwt.version>
-		<arguments />
+		<heanbian-email.version>13.1</heanbian-email.version>
+		<heanbian-util.version>13.1</heanbian-util.version>
+		<heanbian-jwt.version>13.1</heanbian-jwt.version>
 	</properties>
 
 	<dependencyManagement>
@@ -222,11 +220,6 @@
 				<groupId>com.heanbian</groupId>
 				<artifactId>heanbian-jwt</artifactId>
 				<version>${heanbian-jwt.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>com.aliyun.oss</groupId>
-				<artifactId>aliyun-sdk-oss</artifactId>
-				<version>${aliyun-sdk-oss.version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
