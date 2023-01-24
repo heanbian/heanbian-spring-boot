@@ -6,7 +6,7 @@
 
 	<groupId>com.heanbian.boot</groupId>
 	<artifactId>heanbian-spring-boot</artifactId>
-	<version>13.2</version>
+	<version>13.3</version>
 	<packaging>pom</packaging>
 
 	<name>heanbian-spring-boot</name>
@@ -165,12 +165,12 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<spring-boot.version>3.0.2</spring-boot.version>
-		<heanbian-spring-boot-autoconfigure.version>13.2</heanbian-spring-boot-autoconfigure.version>
-		<heanbian-elasticsearch.version>13.2</heanbian-elasticsearch.version>
-		<heanbian-crypto.version>13.2</heanbian-crypto.version>
-		<heanbian-email.version>13.2</heanbian-email.version>
-		<heanbian-util.version>13.2</heanbian-util.version>
-		<heanbian-jwt.version>13.2</heanbian-jwt.version>
+		<heanbian-spring-boot-autoconfigure.version>13.3</heanbian-spring-boot-autoconfigure.version>
+		<heanbian-elasticsearch.version>13.3</heanbian-elasticsearch.version>
+		<heanbian-crypto.version>13.3</heanbian-crypto.version>
+		<heanbian-email.version>13.3</heanbian-email.version>
+		<heanbian-util.version>13.3</heanbian-util.version>
+		<heanbian-jwt.version>13.3</heanbian-jwt.version>
 	</properties>
 
 	<dependencyManagement>
