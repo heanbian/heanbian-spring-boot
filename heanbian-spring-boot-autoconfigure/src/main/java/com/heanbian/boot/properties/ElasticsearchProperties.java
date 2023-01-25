@@ -1,4 +1,4 @@
-package com.heanbian.boot.autoconfigure;
+package com.heanbian.boot.properties;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.context.properties.bind.DefaultValue;

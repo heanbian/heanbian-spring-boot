@@ -17,14 +17,14 @@ import com.heanbian.block.jwt.JwtTemplate;
 
 @Configuration
 @EnableConfigurationProperties({ //
-		com.heanbian.boot.autoconfigure.ElasticsearchProperties.class, //
-		com.heanbian.boot.autoconfigure.EmailProperties.class, //
-		com.heanbian.boot.autoconfigure.OAuth2Properties.class })
+		com.heanbian.boot.properties.ElasticsearchProperties.class, //
+		com.heanbian.boot.properties.EmailProperties.class, //
+		com.heanbian.boot.properties.OAuth2Properties.class })
 public class AutoConfiguration {
 
 	@Bean
 	@ConditionalOnProperty(prefix = "heanbian.elasticsearch", name = "enabled", havingValue = "true")
-	ElasticsearchTemplate elasticsearchTemplate(com.heanbian.boot.autoconfigure.ElasticsearchProperties ep) {
+	ElasticsearchTemplate elasticsearchTemplate(com.heanbian.boot.properties.ElasticsearchProperties ep) {
 		return new ElasticsearchTemplate(ep.clusterNodes());
 	}
 
@@ -54,9 +54,9 @@ public class AutoConfiguration {
 
 	@Bean
 	@ConditionalOnProperty(prefix = "heanbian.email", name = "enabled", havingValue = "true")
-	EmailTemplate emailTemplate(com.heanbian.boot.autoconfigure.EmailProperties ep) {
+	EmailTemplate emailTemplate(com.heanbian.boot.properties.EmailProperties ep) {
 		return new EmailTemplate(
-				new EmailConfig(ep.host(), ep.port(), ep.username(), ep.password(), ep.from(), ep.debug()));
+				EmailConfig.of(ep.host(), ep.port(), ep.username(), ep.password(), ep.from(), ep.debug()));
 	}
 
 	@Bean
