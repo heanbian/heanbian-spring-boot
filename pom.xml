@@ -6,7 +6,7 @@
 
 	<groupId>com.heanbian.boot</groupId>
 	<artifactId>heanbian-spring-boot</artifactId>
-	<version>13.3</version>
+	<version>13.4</version>
 	<packaging>pom</packaging>
 
 	<name>heanbian-spring-boot</name>
@@ -91,7 +91,7 @@
 					<plugin>
 						<groupId>org.apache.maven.plugins</groupId>
 						<artifactId>maven-javadoc-plugin</artifactId>
-						<version>3.4.1</version>
+						<version>3.5.0</version>
 						<executions>
 							<execution>
 								<id>attach-javadocs</id>
@@ -125,7 +125,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-enforcer-plugin</artifactId>
-				<version>3.1.0</version>
+				<version>3.2.1</version>
 			</plugin>
 		</plugins>
 		<pluginManagement>
@@ -164,13 +164,13 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<spring-boot.version>3.0.2</spring-boot.version>
-		<heanbian-spring-boot-autoconfigure.version>13.3</heanbian-spring-boot-autoconfigure.version>
-		<heanbian-elasticsearch.version>13.3</heanbian-elasticsearch.version>
-		<heanbian-crypto.version>13.3</heanbian-crypto.version>
-		<heanbian-email.version>13.3</heanbian-email.version>
-		<heanbian-util.version>13.3</heanbian-util.version>
-		<heanbian-jwt.version>13.3</heanbian-jwt.version>
+		<spring-boot.version>3.0.3</spring-boot.version>
+		<heanbian-spring-boot-autoconfigure.version>13.4</heanbian-spring-boot-autoconfigure.version>
+		<heanbian-elasticsearch.version>13.4</heanbian-elasticsearch.version>
+		<heanbian-crypto.version>13.4</heanbian-crypto.version>
+		<heanbian-email.version>13.4</heanbian-email.version>
+		<heanbian-util.version>13.4</heanbian-util.version>
+		<heanbian-jwt.version>13.4</heanbian-jwt.version>
 	</properties>
 
 	<dependencyManagement>
