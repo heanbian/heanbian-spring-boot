@@ -11,7 +11,7 @@
 
 	<name>heanbian-spring-boot-starter</name>
 	<url>https://github.com/heanbian/heanbian-spring-boot/heanbian-spring-boot-starter</url>
-	<description>Heanbian spring boot starter component.</description>
+	<description>heanbian-spring-boot-starter</description>
 	<inceptionYear>2020</inceptionYear>
 
 	<licenses>
@@ -68,7 +68,7 @@
 					<plugin>
 						<groupId>org.apache.maven.plugins</groupId>
 						<artifactId>maven-compiler-plugin</artifactId>
-						<version>3.10.1</version>
+						<version>3.11.0</version>
 						<configuration>
 							<encoding>UTF-8</encoding>
 							<source>17</source>

@@ -11,7 +11,7 @@
 
 	<name>heanbian-spring-boot</name>
 	<url>https://github.com/heanbian/heanbian-spring-boot</url>
-	<description>Heanbian spring boot component.</description>
+	<description>heanbian-spring-boot</description>
 	<inceptionYear>2020</inceptionYear>
 
 	<licenses>
@@ -68,7 +68,7 @@
 					<plugin>
 						<groupId>org.apache.maven.plugins</groupId>
 						<artifactId>maven-compiler-plugin</artifactId>
-						<version>3.10.1</version>
+						<version>3.11.0</version>
 						<configuration>
 							<encoding>UTF-8</encoding>
 							<source>17</source>
@@ -164,7 +164,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<spring-boot.version>3.0.3</spring-boot.version>
+		<spring-boot.version>3.0.4</spring-boot.version>
 		<heanbian-spring-boot-autoconfigure.version>13.4</heanbian-spring-boot-autoconfigure.version>
 		<heanbian-elasticsearch.version>13.4</heanbian-elasticsearch.version>
 		<heanbian-crypto.version>13.4</heanbian-crypto.version>
