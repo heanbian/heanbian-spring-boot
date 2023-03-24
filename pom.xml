@@ -133,7 +133,7 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-release-plugin</artifactId>
-					<version>3.0.0-M7</version>
+					<version>3.0.0</version>
 					<configuration>
 						<mavenExecutorId>forked-path</mavenExecutorId>
 						<useReleaseProfile>false</useReleaseProfile>
@@ -164,7 +164,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<spring-boot.version>3.0.4</spring-boot.version>
+		<spring-boot.version>3.0.5</spring-boot.version>
 		<heanbian-spring-boot-autoconfigure.version>13.4</heanbian-spring-boot-autoconfigure.version>
 		<heanbian-elasticsearch.version>13.4</heanbian-elasticsearch.version>
 		<heanbian-crypto.version>13.4</heanbian-crypto.version>
