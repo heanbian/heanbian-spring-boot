@@ -104,7 +104,7 @@
 					<plugin>
 						<groupId>org.apache.maven.plugins</groupId>
 						<artifactId>maven-gpg-plugin</artifactId>
-						<version>3.0.1</version>
+						<version>3.1.0</version>
 						<executions>
 							<execution>
 								<id>sign-artifacts</id>
@@ -164,7 +164,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<spring-boot.version>3.0.6</spring-boot.version>
+		<spring-boot.version>3.1.0</spring-boot.version>
 		<heanbian-spring-boot-autoconfigure.version>13.5</heanbian-spring-boot-autoconfigure.version>
 		<heanbian-elasticsearch.version>13.5</heanbian-elasticsearch.version>
 		<heanbian-crypto.version>13.5</heanbian-crypto.version>
