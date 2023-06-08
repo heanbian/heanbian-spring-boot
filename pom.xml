@@ -6,7 +6,7 @@
 
 	<groupId>com.heanbian.boot</groupId>
 	<artifactId>heanbian-spring-boot</artifactId>
-	<version>14</version>
+	<version>14.1</version>
 	<packaging>pom</packaging>
 
 	<name>heanbian-spring-boot</name>
@@ -78,7 +78,7 @@
 					<plugin>
 						<groupId>org.apache.maven.plugins</groupId>
 						<artifactId>maven-source-plugin</artifactId>
-						<version>3.2.1</version>
+						<version>3.3.0</version>
 						<executions>
 							<execution>
 								<id>attach-sources</id>
@@ -133,7 +133,7 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-release-plugin</artifactId>
-					<version>3.0.0</version>
+					<version>3.0.1</version>
 					<configuration>
 						<mavenExecutorId>forked-path</mavenExecutorId>
 						<useReleaseProfile>false</useReleaseProfile>
@@ -165,12 +165,12 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<spring-boot.version>3.1.0</spring-boot.version>
-		<heanbian-spring-boot-autoconfigure.version>14</heanbian-spring-boot-autoconfigure.version>
-		<heanbian-elasticsearch.version>14</heanbian-elasticsearch.version>
-		<heanbian-crypto.version>14</heanbian-crypto.version>
-		<heanbian-email.version>14</heanbian-email.version>
-		<heanbian-util.version>14</heanbian-util.version>
-		<heanbian-jwt.version>14</heanbian-jwt.version>
+		<heanbian-spring-boot-autoconfigure.version>14.1</heanbian-spring-boot-autoconfigure.version>
+		<heanbian-elasticsearch.version>14.1</heanbian-elasticsearch.version>
+		<heanbian-crypto.version>14.1</heanbian-crypto.version>
+		<heanbian-email.version>14.1</heanbian-email.version>
+		<heanbian-util.version>14.1</heanbian-util.version>
+		<heanbian-jwt.version>14.1</heanbian-jwt.version>
 	</properties>
 
 	<dependencyManagement>
