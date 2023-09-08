@@ -10,6 +10,7 @@ import com.heanbian.block.crypto.AesTemplate;
 import com.heanbian.block.crypto.EcTemplate;
 import com.heanbian.block.crypto.ExRsaTemplate;
 import com.heanbian.block.crypto.RsaTemplate;
+import com.heanbian.block.crypto.SM4Template;
 import com.heanbian.block.elasticsearch.client.ElasticsearchTemplate;
 import com.heanbian.block.email.EmailConfig;
 import com.heanbian.block.email.EmailTemplate;
@@ -53,10 +54,15 @@ public class AutoConfiguration {
 	}
 
 	@Bean
+	@ConditionalOnClass(SM4Template.class)
+	SM4Template sm4Template() {
+		return new SM4Template();
+	}
+
+	@Bean
 	@ConditionalOnProperty(prefix = "heanbian.email", name = "enabled", havingValue = "true")
 	EmailTemplate emailTemplate(com.heanbian.boot.properties.EmailProperties ep) {
-		return new EmailTemplate(
-				EmailConfig.of(ep.host(), ep.port(), ep.username(), ep.password(), ep.from(), ep.debug()));
+		return new EmailTemplate(EmailConfig.of(ep.host(), ep.port(), ep.username(), ep.password(), ep.from(), ep.debug()));
 	}
 
 	@Bean
