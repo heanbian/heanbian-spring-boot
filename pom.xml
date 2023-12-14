@@ -6,7 +6,7 @@
 
 	<groupId>com.heanbian.boot</groupId>
 	<artifactId>heanbian-spring-boot</artifactId>
-	<version>18.1</version>
+	<version>19.1</version>
 	<packaging>pom</packaging>
 
 	<name>heanbian-spring-boot</name>
@@ -91,7 +91,7 @@
 					<plugin>
 						<groupId>org.apache.maven.plugins</groupId>
 						<artifactId>maven-javadoc-plugin</artifactId>
-						<version>3.6.0</version>
+						<version>3.6.3</version>
 						<executions>
 							<execution>
 								<id>attach-javadocs</id>
@@ -165,12 +165,12 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<spring-boot.version>3.2.0</spring-boot.version>
-		<heanbian-spring-boot-autoconfigure.version>18.1</heanbian-spring-boot-autoconfigure.version>
-		<heanbian-elasticsearch.version>18.1</heanbian-elasticsearch.version>
-		<heanbian-crypto.version>18.1</heanbian-crypto.version>
-		<heanbian-email.version>18.1</heanbian-email.version>
-		<heanbian-util.version>18.1</heanbian-util.version>
-		<heanbian-jwt.version>18.1</heanbian-jwt.version>
+		<heanbian-spring-boot-autoconfigure.version>19.1</heanbian-spring-boot-autoconfigure.version>
+		<heanbian-elasticsearch.version>19.1</heanbian-elasticsearch.version>
+		<heanbian-crypto.version>19.1</heanbian-crypto.version>
+		<heanbian-email.version>19.1</heanbian-email.version>
+		<heanbian-util.version>19.1</heanbian-util.version>
+		<heanbian-jwt.version>19.1</heanbian-jwt.version>
 	</properties>
 
 	<dependencyManagement>
