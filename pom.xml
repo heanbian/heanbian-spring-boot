@@ -164,7 +164,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<spring-boot.version>3.2.4</spring-boot.version>
+		<spring-boot.version>3.2.5</spring-boot.version>
 		<heanbian-spring-boot-autoconfigure.version>20.1</heanbian-spring-boot-autoconfigure.version>
 		<heanbian-elasticsearch.version>20.1</heanbian-elasticsearch.version>
 		<heanbian-crypto.version>20.1</heanbian-crypto.version>
